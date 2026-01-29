@@ -7,7 +7,7 @@ def step_function(sum):
         return 1
     return 0
 
-class Perception:
+class Perceptron:
     def __init__(self, input_size):
         #가중치 초기화 입력이 2개면 2+1 <-- 1은 편향 bias
         #w1x1 + w2x2 + bias
