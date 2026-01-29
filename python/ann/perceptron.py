@@ -33,7 +33,7 @@ train_data = np.array([
     [1,1]
 ])
 labels = np.array([0,0,0,1]) # and 연산
-model = Perception(2) #입력 2개
+model = Perceptron(2) #입력 2개
 model.train(train_data, labels, lr=0.1)
 # 결과 확인
 for i, v in zip(train_data, labels):
